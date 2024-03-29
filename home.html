@@ -1,49 +1,112 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Ergashev Eldor">
-    <meta name="description" content="This is a website about 'The Little Shop'">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Ergashev Eldor" />
+    <meta
+      name="description"
+      content="This is a website about 'The Little Shop'"
+    />
     <title>The Little Taco Shop</title>
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="icon" href="/public/icons/favicon.ico">
-</head>
-<body>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="icon" href="/public/icons/favicon.ico" />
+  </head>
+  <body>
     <header>
-        <h1>Welcome to The Little Taco Shop</h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#about-lts">About LTS</a>
-                </li>
-                <li>
-                    <a href="#our-menu">Our Menu</a>
-                </li>
-                <li>
-                    <a href="/pages/hours.html">Store Hours</a>
-                </li>
-                <li>
-                    <a href="/pages/contact.html">Contact Us</a>
-                </li>
-            </ul>
-        </nav>
-        <figure>
-            <img src="/public/img/tacos_and_drink_400x267.png" alt="Tacos and a Drink">
-            <figcaption>Tacos and a Drink</figcaption>
-        </figure>
+      <h1>Welcome to The Little Taco Shop</h1>
+      <nav>
+        <ul>
+          <li>
+            <a href="#about-lts">About LTS</a>
+          </li>
+          <li>
+            <a href="#our-menu">Our Menu</a>
+          </li>
+          <li>
+            <a href="/pages/hours.html">Store Hours</a>
+          </li>
+          <li>
+            <a href="/pages/contact.html">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
+      <figure>
+        <img
+          src="/public/img/tacos_and_drink_400x267.png"
+          alt="Tacos and a Drink"
+        />
+        <figcaption>Tacos and a Drink</figcaption>
+      </figure>
     </header>
-    <hr>
-    <article id="about-lts">
+    <hr />
+    <main>
+      <article id="about-lts">
         <h2>About LTS</h2>
         <p>
-            <abbr title="The Little Taco Shop">LTS</abbr> was founded in 2022. Our shop was build from a <strong>love of tacos</strong> 🌮 🌮 🌮. We hope our shop adds a unique and interesting place to our little town.
+          <abbr title="The Little Taco Shop">LTS</abbr> was founded in 2022. Our
+          shop was build from a <strong>love of tacos</strong> 🌮 🌮 🌮. We hope
+          our shop adds a unique and interesting place to our little town.
         </p>
         <h3>Taco Trivia</h3>
         <details>
-            <summary>When did tacos first appear in the United States?</summary>
-            <p>This daily staple was filling, delicious, and affordable. The Taco was first introduced to the United States in 1905. Mexican migrants were coming in to work on railroads and other jobs and started to bring their delicious food with them.</p>
+          <summary>When did tacos first appear in the United States?</summary>
+          <p>
+            This daily staple was filling, delicious, and affordable. The Taco
+            was first introduced to the United States in 1905. Mexican migrants
+            were coming in to work on railroads and other jobs and started to
+            bring their delicious food with them.
+          </p>
         </details>
-    </article>
-</body>
+      </article>
+      <article id="our-menu">
+        <h2>Our Menu</h2>
+        <table>
+          <caption>
+            Our Tacos
+          </caption>
+          <thead>
+            <tr>
+              <th scope="col">Tacos</th>
+              <th scope="col">Qty</th>
+              <th scope="col">Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row" rowspan="3">Crunchy</th>
+              <td>1</td>
+              <td>&dollar;1.50</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>&dollar;2.50</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>&dollar;3.25</td>
+            </tr>
+            <tr>
+              <th scope="row" rowspan="3">Soft</th>
+              <td>1</td>
+              <td>&dollar;2.00</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>&dollar;3.50</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>&dollar;4.50</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="3">Chips & Salsa &dollar;2</td>
+            </tr>
+          </tfoot>
+        </table>
+      </article>
+    </main>
+  </body>
 </html>
